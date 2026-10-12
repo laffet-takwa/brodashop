@@ -38,6 +38,36 @@ motion-first interface.
 | `/checkout` | Demo checkout |
 | `*` | Animated 404 |
 
+## Screenshots
+
+| Home | Shop | Product Detail |
+|:---:|:---:|:---:|
+| ![Home](screenshots/home.jpg) | ![Shop](screenshots/shop.jpg) | ![Product](screenshots/product-detail.jpg) |
+
+| Story | Journal | Journal Article |
+|:---:|:---:|:---:|
+| ![Story](screenshots/story.jpg) | ![Journal](screenshots/journal.jpg) | ![Journal Post](screenshots/journal-post.jpg) |
+
+| Lookbook | Wishlist | Account |
+|:---:|:---:|:---:|
+| ![Lookbook](screenshots/lookbook.jpg) | ![Wishlist](screenshots/wishlist.jpg) | ![Account](screenshots/account.jpg) |
+
+| Contact | Size Guide | Checkout |
+|:---:|:---:|:---:|
+| ![Contact](screenshots/contact.jpg) | ![Size Guide](screenshots/size-guide.jpg) | ![Checkout](screenshots/checkout.jpg) |
+
+| 404 |
+|:---:|
+| ![404](screenshots/404.jpg) |
+
+Regenerate them with:
+
+```bash
+npm run build
+npm run preview   # serves dist on http://localhost:4173
+npm run screenshots
+```
+
 ## Getting Started
 
 ```bash
